@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" fill="none">
+  <defs>
+    <linearGradient id="goldGradHero" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE885"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C650A"/>
+    </linearGradient>
+    <radialGradient id="knightGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#D4AF37" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0E1116" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Ambient Glow Behind -->
+  <circle cx="250" cy="250" r="230" fill="url(#knightGlow)"/>
+
+  <!-- Tactical Hex Shield Outer -->
+  <polygon points="250,30 440,140 440,360 250,470 60,360 60,140"
+           stroke="url(#goldGradHero)"
+           stroke-width="3"
+           stroke-opacity="0.4"
+           stroke-dasharray="12 8"/>
+
+  <!-- Geometric Grid Marks -->
+  <line x1="250" y1="10" x2="250" y2="50" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="250" y1="450" x2="250" y2="490" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="40" y1="250" x2="80" y2="250" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="420" y1="250" x2="460" y2="250" stroke="#D4AF37" stroke-width="2"/>
+
+  <!-- Inner Strategic Knight Motif -->
+  <path d="M 250 110
+           C 220 110, 175 138, 160 185
+           C 152 210, 160 225, 178 235
+           C 150 245, 128 275, 135 315
+           C 142 335, 170 345, 205 345
+           L 212 370
+           L 170 395
+           L 170 420
+           L 330 420
+           L 330 395
+           L 295 370
+           L 295 305
+           C 325 270, 345 220, 345 175
+           C 345 130, 298 110, 250 110 Z"
+        fill="url(#goldGradHero)"
+        opacity="0.95"/>
+
+  <!-- Geometric Facets & Chess Cutouts -->
+  <polygon points="250,110 205,250 295,305" fill="#FFFFFF" opacity="0.25"/>
+  <polygon points="178,235 135,315 205,300" fill="#000000" opacity="0.3"/>
+  <polygon points="250,110 295,305 345,175" fill="#FFEAA0" opacity="0.15"/>
+  <circle cx="205" cy="190" r="14" fill="#0E1116"/>
+  <circle cx="205" cy="190" r="7" fill="#D4AF37"/>
+</svg>
+

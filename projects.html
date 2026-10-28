@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects & Applications | Versagambit Software Studio</title>
+  <meta name="description" content="Explore active software projects and applications engineered by Versagambit, including De Code AI for Android, productivity tools, and experimental utilities.">
+  <meta name="keywords" content="De Code AI, Versagambit projects, Android applications, code analysis, programming tutor, AI debugging, Kotlin app">
+  <meta name="author" content="Versagambit">
+  <link rel="canonical" href="projects.html">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects & Applications | Versagambit Software Studio">
+  <meta property="og:description" content="Discover software projects developed by Versagambit, featuring De Code AI and upcoming multi-category software.">
+  <meta property="og:image" content="assets/images/og-preview.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-link" aria-label="Versagambit Home">
+        <img src="assets/images/logo.svg" alt="Versagambit Logo" class="brand-logo-img" width="210" height="48">
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav id="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="privacy.html" class="nav-link">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Header Banner -->
+    <section class="section-padding-sm" style="background: var(--bg-secondary); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-tag">Software Portfolio & Pipeline</div>
+        <h1 class="section-title">Projects & <span class="gold-gradient-text">Applications</span></h1>
+        <p class="section-lead">
+          Explore our current development builds, architectural prototypes, and future software releases across multiple categories.
+        </p>
+
+        <!-- Category Filter Bar -->
+        <div class="filter-bar" role="tablist" aria-label="Project Category Filters">
+          <button type="button" class="filter-btn active" data-category="all" role="tab" aria-selected="true">
+            All Projects
+          </button>
+          <button type="button" class="filter-btn" data-category="ai" role="tab" aria-selected="false">
+            AI & Developer Tools
+          </button>
+          <button type="button" class="filter-btn" data-category="productivity" role="tab" aria-selected="false">
+            Productivity & Utilities
+          </button>
+          <button type="button" class="filter-btn" data-category="education" role="tab" aria-selected="false">
+            Education & Logic
+          </button>
+          <button type="button" class="filter-btn" data-category="games" role="tab" aria-selected="false">
+            Games & Interactive
+          </button>
+          <button type="button" class="filter-btn" data-category="utilities" role="tab" aria-selected="false">
+            Web Apps & E-Commerce
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Grid Container -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="projects-grid" id="all-projects-container">
+          <!-- Dynamically populated from assets/js/projects.js -->
+        </div>
+
+        <!-- Transparency & Roadmap Card -->
+        <div class="policy-card" style="margin-top: 50px;">
+          <h3 style="color: var(--gold-light); font-size: 1.25rem; margin-bottom: 12px;">Release Integrity & Google Play Status Notice</h3>
+          <p style="font-size: 0.95rem; line-height: 1.65; color: var(--text-secondary); margin-bottom: 14px;">
+            Versagambit maintains a strict policy of transparency:
+          </p>
+          <ul style="padding-left: 20px; font-size: 0.92rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 14px;">
+            <li><strong>In Development:</strong> Applications marked as "In Development" (such as <em>De Code AI</em>) are undergoing active architecture, coding, and internal testing. No simulated or fabricated Google Play download links are provided.</li>
+            <li><strong>Official Store Links:</strong> Genuine, direct Google Play store links will be published on this page immediately upon formal approval and public launch in the Google Play Store.</li>
+            <li><strong>Continuous Updates:</strong> Our modular project structure allows new tools, games, and utilities to be added seamlessly as they enter active testing.</li>
+          </ul>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin: 0;">
+            Want to participate as a beta tester or provide early feedback? <a href="contact.html" class="gold-link">Contact the developer</a> to express interest.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo.svg" alt="Versagambit Logo" width="190" height="42">
+          <p>
+            An independent software development brand inspired by chess strategy, adaptability, and exploration.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About & Philosophy</a></li>
+            <li><a href="projects.html">Projects & Applications</a></li>
+            <li><a href="contact.html">Contact the Developer</a></li>
+            <li><a href="privacy.html">Website Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Developer Contact</h4>
+          <ul class="footer-nav-list">
+            <li>
+              <a href="mailto:ghostfaceghost62@gmail.com" class="dev-mailto dev-email">ghostfaceghost62@gmail.com</a>
+            </li>
+            <li style="margin-top: 10px; font-size: 0.85rem; color: var(--text-muted);">
+              Bug reports, feature requests & feedback.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-disclaimer">
+          <strong>Independent Developer Disclaimer:</strong> Versagambit is an independent developer brand. Google Play and the Google Play logo are trademarks of Google LLC. This website does not claim Google endorsement or formal affiliation.
+        </div>
+        <div class="copyright-text">
+          &copy; <span id="current-year">2026</span> Versagambit. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/projects.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      renderProjects("all-projects-container", "all");
+      setupProjectFilters();
+    });
+  </script>
+</body>
+</html>
+
